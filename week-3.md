@@ -75,8 +75,11 @@ In this image, I am calling the `.getQuery()` method, the `.split()` method, the
 ![image](./bug1.png)
 
 
-In this example, 
+In this example, the method is supposed to reverse the order of the values in the array. Due to the implementation, however, once you reach the second half of the array, it begins assigning values equal to itself because it is accessing values at indices that already been updated.
 
 ![image](./inputFailure2.png)
 ![image](./symptom2.png)
 ![image](./bug2.png)
+
+
+In this example, the method is supposed to add values at the end of the List, but this implementation inserted new values at the beginning of the List, which is an incorrect behavior.

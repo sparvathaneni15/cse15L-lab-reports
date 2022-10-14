@@ -55,3 +55,17 @@ class SearchEngine {
     }
 }
 ```
+![image](./Add1.png)
+
+
+For the first image, I am calling the `.getQuery()` method, the `.split()` method, `.equals()` method, the `.add()` method, and the `.format()` method. The `.split()` method gets passed an "=", in order to split the URL. The `.equals()` method gets passed an "s" to it to validate if the URL follows the correct format. The `.add()` method passes the second value in the parameters array, which adds the second half of the URL path to the ArrayList. Finally, the `.format()` method is called on the `String` class to display what string had been added. The field variable `strings` changes in this image because `parameters[1]` gets added to it.
+
+![image](./Add2.png)
+
+
+Since this image captures the adding of another string value, it will be the same as the previous image. I am calling the `.getQuery()` method, the `.split()` method, `.equals()` method, the `.add()` method, and the `.format()` method. The `.split()` method gets passed an "=", in order to split the URL. The `.equals()` method gets passed an "s" to it to validate if the URL follows the correct format. The `.add()` method passes the second value in the parameters array, which adds the value of the URL to the ArrayList. Finally, the `.format()` method is called on the `String` class to display what string had been added. The field variable `strings` changes in this image because `parameters[1]` gets added to it.
+
+![image](./Search.png)
+
+
+In this image, I am calling the `.getQuery()` method, the `.split()` method, the `.equals()` method, the `.add()` method, and the `.format()` method. The `.split()` method gets passed an "=", to split URL. The `.equals()` method gets passed an "s" to it to check if it has the correct format. The `.add()` method passes the second value in the parameters array, which adds the value of the second half of the URL path to the ArrayList. This time, however, it gets added to `query`, not `strings`. The `.format()` method is called on the `String` class to display what queries had been searched for. The field variable `query` changes in this image because `parameters[1]` gets added to it.

@@ -71,6 +71,7 @@ Since this image captures the adding of another string value, it will be the sam
 In this image, I am calling the `.getQuery()` method, the `.split()` method, the `.equals()` method, the `.add()` method, and the `.format()` method. The `.split()` method gets passed an "=", to split URL. The `.equals()` method gets passed an "s" to it to check if it has the correct format. The `.add()` method passes the second value in the parameters array, which adds the value of the second half of the URL path to the ArrayList. This time, however, it gets added to `query`, not `strings`. The `.format()` method is called on the `String` class to display what queries had been searched for. The field variable `query` changes in this image because `parameters[1]` gets added to it.
 
 ![image](./inputFailure1.png)
+![image](./symptom1.png)
 ![image](./bug1.png)
 
 

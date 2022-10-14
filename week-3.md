@@ -1,3 +1,7 @@
+# Week 3 Lab Report
+
+## Samanyu Parvathaneni
+
 ```
 import java.net.URI;
 import java.util.ArrayList;

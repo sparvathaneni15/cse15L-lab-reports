@@ -39,3 +39,5 @@ The `-s` option lists the directories and file paths lexographically (alphabetic
 find -d ./*/
 ```
 
+![image](./Command2-Example2.png)
+The `-d` option causes the output to be listed after a depth-first traversal has been made.

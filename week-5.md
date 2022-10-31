@@ -2,6 +2,8 @@
 
 ## Samanyu Parvathaneni
 
+### ```less```
+
 ```
 less -m ./*/*.txt
 ```
@@ -21,3 +23,14 @@ The `-M` option provides an even more functional version of the previous command
 ```
 less -N ./*/*.txt
 ```
+
+![image](./Command1-Example3.png)
+The `-N` option adds the line number of each line to the beginning of each line.
+
+
+### ```find```
+
+```
+find -s ./*/
+```
+

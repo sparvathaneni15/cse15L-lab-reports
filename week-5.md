@@ -41,3 +41,19 @@ find -d ./*/
 
 ![image](./Command2-Example2.png)
 The `-d` option causes the output to be listed after a depth-first traversal has been made.
+
+```
+find -x ./*/
+```
+
+![image](./Command2-Example3.png)
+The `-x` option prevents find from calling the command on the returned directories that have a device number different than that of the file from which the descent began.
+
+
+### ```grep```
+
+```
+grep -L terrorism ./*/*
+```
+
+![image]()

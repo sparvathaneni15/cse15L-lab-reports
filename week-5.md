@@ -64,3 +64,10 @@ grep -b biology ./*/*
 ```
 
 ![image](./Command3-Example2.png)
+The `-b` option displays the offset in bytes of a matched pattern after file path.
+
+```
+grep -n cells ./*/*
+```
+
+![image](./Command3-Example3.png)

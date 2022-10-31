@@ -56,4 +56,11 @@ The `-x` option prevents find from calling the command on the returned directori
 grep -L terrorism ./*/*
 ```
 
-![image]()
+![image](./Command3-Example1.png)
+The `-L` option outputs all of the file names that do not have the passed argument in its contents.
+
+```
+grep -b biology ./*/*
+```
+
+![image](./Command3-Example2.png)

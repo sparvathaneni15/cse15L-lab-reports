@@ -8,18 +8,34 @@
 
 After accessing the file with vim by entering `vim DocSearchServer.java`, I was met with this screen.
 
-![image](./Before.png)
+![image](./Original.png)
 
 
-In order to replace all appearances of the string `start` with `base`, I entered the following vim command:
+In order to replace all relevant appearances of the string `start` with `base`, I entered the following vim command:
 
 `:%s/start/base/gc<Enter>`
 
-![image](./During.png)
+![image](./Before.png)
 
-This single command replaces all instances of the string `start` with `base`
+After hitting enter, the terminal prompts me to change the highlighted string by entering `y` or `n`.
+
+![image](./Change1.png)
+
+After hitting `y`, the highlighted instance is replaced and the program moves on to the next instance of `start` and prompts the same thing.
+
+![image](./Change2.png)
+
+![image](./Change3.png)
+
+Once it got to an instance of `start` that I did not want to change, I entered `n`.
+
+![image](./Change4.png)
+
+Finally, the vim command is done running and the desired changes have been made.
 
 ![image](./After.png)
+
+![image](./LastPart.png)
 
 ### **PART 2**
 

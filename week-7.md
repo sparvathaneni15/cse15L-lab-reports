@@ -40,3 +40,9 @@ Finally, the vim command is done running and the desired changes have been made.
 ### **PART 2**
 
 Using Visual Studio Code, it took about 30 seconds. It took me a few minutes to recollect how to properly `scp` the edited file into the remote server.
+
+Using vim on the remote server, the process took about 15 seconds. I didn't run into any serious hurdles when using this method.
+
+I would prefer using the second method because I can easily make edits while on the remote server, instead of exiting the server, editing locally, copying to the remote server, and finally reentering the remote server.
+
+I think if I was changing the logic of my files or making large edits, I would edit locally on Visual Studio Code because the vim traversal commands are more difficult to use than the traditional cursor.

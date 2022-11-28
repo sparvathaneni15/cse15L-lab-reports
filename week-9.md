@@ -27,3 +27,16 @@ else
     exit
 fi
 ```
+### Screenshots
+
+![image](./CompileError.png)
+
+![image](./Corrected.png)
+
+![image](./FileName.png)
+
+### Trace
+
+Trace for https://github.com/ucsd-cse15l-f22/list-methods-filename:
+
+The first line removes the `student-submission` folder from the current directory. Then, it clones the file passed in the terminal and places it in a newly created folder called `student-submission`. The following `if` statement evaluates to false because there does not exist a file called `ListExamples.java` in `student-submission`. The lines 6-16 do not run because they are in the `if` branch that does not evaluate.

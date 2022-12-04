@@ -79,7 +79,7 @@ In this image, I am calling the `.getQuery()` method, the `.split()` method, the
 ![image](./bug1.png)
 
 
-In this example, the method is supposed to reverse the order of the values in the array. Due to the implementation, however, once you reach the second half of the array, it begins assigning values equal to itself because it is accessing values at indices that already been updated.
+The failure-inducing input is an array of length greater than 1. In this example, the method is supposed to reverse the order of the values in the array. Due to the implementation, however, once you reach the second half of the array, it begins assigning values equal to itself because it is accessing values at indices that already been updated. To correct this, I access each element at the index of i and store it in a temporary variable. Then, I update the element at the index of i to be the element at the index of arr.length-i-1. Finally, I update the element at the index of arr.length-i-1 to be the temporary variable. I do this while i < arr.length/2 because I am updating two elements in the array per iteration of the for loop. 
 
 ![image](./inputFailure2.png)
 ![image](./symptom2.png)

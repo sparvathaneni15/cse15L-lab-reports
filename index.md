@@ -1,6 +1,6 @@
 Welcome to my lab reports for CSE 15L: Software Tools and Technique Laboratory
 
-[Lab Report 1](https://sparvathaneni15.github.io/cse15L-lab-reports/week-1): How to log into a course-specific account on ieng6.
+[Lab Report 1](https://sparvathaneni15.github.io/cse15L-lab-reports/week-1): SSH
 
 [Lab Report 2](https://sparvathaneni15.github.io/cse15L-lab-reports/week-3): Simplest Search Engine
 
